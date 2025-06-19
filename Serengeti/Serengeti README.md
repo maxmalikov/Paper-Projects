@@ -1,6 +1,6 @@
 # Serengeti Model Readme
 
-![](.\UI.PNG)
+![](./UI.PNG "Screenshot")
 
 This model explores the gene-centric strategy performance in the population, through an environment that consists of two types of game-theoretical scenarios: Stag Hunt and Hawk-Dove. The reason for their choice is that they have been observed to be more representative of the types of interactions encountered in the wild. 
 
