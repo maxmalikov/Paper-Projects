@@ -10,5 +10,8 @@ Agent-Based Models
 
 Statistical Analysis
 
+1. General Social Survey Polarization - an analysis of the General Social Survey data over 50 years to determine the presence and evolution of polarization in the political opinions of the population.
 
 Machine Learning
+
+1. Bible Sentiment Analysis - Natural Language Processing paper that aims to unearth shifts in the sentiment towards certain concepts (e.g. men and women).
