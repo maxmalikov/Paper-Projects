@@ -2,19 +2,12 @@
 
 ![](./Network.PNG "Screenshot")
 
-This project attempts to use the data from the General Social Survey (https://gss.norc.org) and capture the presence and evolution of polarization in the opinions of the individuals based on the recorded data over the years.
+This project attempts to use the data from the General Social Survey (https://gss.norc.org) and capture the presence and evolution of polarization in the opinions of the individuals based on the recorded data over the years. The central premise is that we can construct a network of people who share similar opinions, which allows us then to utilize various social network analysis tools to obtain additional insights into this data. The network is constructed by treating each responder as an individual node, and a link between two nodes is constructed only when those nodes agree in the number of opinions that is a standard deviation above the average number of links that would have been formed by chance. 
 
-To be clear, there are different measures and ideas of what polarization actually means (see https://www.osti.gov/biblio/1106631)![image](https://github.com/user-attachments/assets/5a8922ee-6bbb-4aa7-aecb-6999244354e8)
+When such a network is constructed, becomes noticable that a) people that share some opinions tend to share a lot of similar opinions and b) the occurance of shared opinions is significantly greater than would be dictated by chance. This allows us to observe just how similar multiple beliefs are in people that share at least some of the opinions, and how clustered these opinions are to each other, which can be seen as polarization in the population.
 
-
-This model explores the gene-centric strategy performance in the population, through an environment that consists of two types of game-theoretical scenarios: Stag Hunt and Hawk-Dove. The reason for their choice is that they have been observed to be more representative of the types of interactions encountered in the wild. 
-
-In addition to the simple exploration of the performance of this strategy, each agent also maintains a simplified DNA representation, allowing to observe how the fitness of the population (e.g. size of the gene pool, life expectancy, and average individual fitness) changes for each strategy type in different environments.
-
-**Results:** this strategy tends to have comparable population fitness to other strategies, and tends to outperform them (or performs as well as them) in a head-to-head competition.
-
-**Discussion:** How exactly does one determine that the individual you are interacting with is related, and to what proportion? The more obvious answer is that time spent . The less obvious answer could be some sort of biological marker that one may perceive without necessarily being aware of it.
+To be clear, there are different measures and ideas of what polarization actually means (see https://www.osti.gov/biblio/1106631). In particular, we are interested in Solidarity (as measured by the Global Clustering value), Dispersion (as measured by the Standard Deviation of the Local Clustering values), and Community Fracturing (as measured by the Effective Number of Parties from Laakso and Taagepera, https://doi.org/10.1177/001041407901200101). The visualization of communities is also of interest (see above). All of these different polarization measures are captured in the **gss_polarization.py** file.
 
 **Software versions:**
-- Julia 1.7
-- Agents.jl 5.1
+- Python 3.10
+- NetworkX 2.8
