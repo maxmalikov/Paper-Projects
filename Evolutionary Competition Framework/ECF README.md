@@ -1,4 +1,4 @@
-# Serengeti Model Readme
+# Evolutionary Competition Framework Model Readme
 
 ![](./UI.PNG "Screenshot")
 
