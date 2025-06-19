@@ -1,6 +1,6 @@
 # Paper-Projects
 
-Agent-Based Models
+**Agent-Based Models**
 
 1. Serengeti - model of game theory strategies in a spatial environment with a focus on gene-centric strategy. Additional focus of the model is on the gene fitness.
 
@@ -8,10 +8,10 @@ Agent-Based Models
 
 3. Cooperation Evolution - model of how cooperation may emerge from repeated interactions between agents.
 
-Statistical Analysis
+**Statistical Analysis**
 
 1. General Social Survey Polarization - an analysis of the General Social Survey data over 50 years to determine the presence and evolution of polarization in the political opinions of the population.
 
-Machine Learning
+**Machine Learning**
 
 1. Bible Sentiment Analysis - Natural Language Processing paper that aims to unearth shifts in the sentiment towards certain concepts (e.g. men and women).
