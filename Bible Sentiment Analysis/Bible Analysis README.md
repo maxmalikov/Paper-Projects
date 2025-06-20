@@ -9,6 +9,9 @@ Background: Since Bible texts are based on mostly the same source data, the diff
 
 **Results:** We can observe a shift in sentiments towards some concepts, as well as a shift towards more positive sentiment in the Bibles as a whole.
 
+**Software Files:**
+- Word2Vec_Bible_Analysis.ipynb - used to build models and generate outputs
+
 **Software versions:**
-- Julia 1.7
-- Agents.jl 5.1
+- Python 3.10
+- Word2Vec 0.11.1
