@@ -10,6 +10,9 @@ In addition to the simple exploration of the performance of this strategy, each 
 
 **Discussion:** How exactly does one determine that the individual you are interacting with is related, and to what proportion? The more obvious answer is that time spent . The less obvious answer could be some sort of biological marker that one may perceive without necessarily being aware of it.
 
+**Software files:**
+- Serengeti.jl - the main model used to generate the results observed in the XLSX files.
+
 **Software versions:**
 - Julia 1.7
 - Agents.jl 5.1
