@@ -6,6 +6,12 @@ This model explores the performance of agent strategies in a spatial prisoner's 
 
 **Results:** Group strategies drastically outperform individual strategies in almost all neighborhood environment types, with a clique-like in-group cooperate, out-group defect being the most effective.
 
+**Software files:**
+- Evolutionary Competition Framework.nlogo - NetLogo version of the model
+- Evolutionary Competition Framework.jl - Agents.jl version of the model
+
 **Software versions:**
 - NetLogo 6.4.0
+- Julia 1.7
+- Agents.jl 5.1
 
