@@ -8,6 +8,8 @@
 
 3. Cooperation Evolution (Python) - model of how cooperation may emerge from repeated interactions between agents.
 
+4. Rationality Model (NetLogo) - model of how certain cooperative strategies can survive and outcompete more selfish strategies. Notably, the related paper also provides guidance on consistent strategy choice across multiple game-theoretical environments.
+
 **Statistical Analysis**
 
 1. General Social Survey Polarization (Python) - an analysis of the General Social Survey data over 50 years to determine the presence and evolution of polarization in the political opinions of the population.
