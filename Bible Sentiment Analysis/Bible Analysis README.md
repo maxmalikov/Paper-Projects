@@ -2,15 +2,12 @@
 
 ![](./Results.PNG "Screenshot")
 
-This project uses Word2Vec models of individual texts to estimate the shifts in positive and negative sentiments to certain concepts over time. 
+This project uses Word2Vec models of individual texts to estimate the shifts in positive and negative sentiments to certain concepts over time. Using a corpus of Bible texts (https://dataverse.orc.gmu.edu/dataset.xhtml?persistentId=doi:10.13021/orc2020/RCCN7C), a Word2Vec model is build for each one, and the proximity of vectors representing different concepts are compared to vectors representing positive and negative sentiment, allowing to approximate the disposition towards these concepts in that particular text. 
 
-This model explores the gene-centric strategy performance in the population, through an environment that consists of two types of game-theoretical scenarios: Stag Hunt and Hawk-Dove. The reason for their choice is that they have been observed to be more representative of the types of interactions encountered in the wild. 
+Background: Since Bible texts are based on mostly the same source data, the difference in disposition towards words and concepts between different Bibles is mainly the result of personal influence of the translators and creators of these texts. The choice of words and the phrasing in these translations influences how these concepts are percieved by the target audience, and constructing models for each Bible allows us to discern this personal influence when compared against other Bible texts.
 
-In addition to the simple exploration of the performance of this strategy, each agent also maintains a simplified DNA representation, allowing to observe how the fitness of the population (e.g. size of the gene pool, life expectancy, and average individual fitness) changes for each strategy type in different environments.
 
-**Results:** this strategy tends to have comparable population fitness to other strategies, and tends to outperform them (or performs as well as them) in a head-to-head competition.
-
-**Discussion:** How exactly does one determine that the individual you are interacting with is related, and to what proportion? The more obvious answer is that time spent . The less obvious answer could be some sort of biological marker that one may perceive without necessarily being aware of it.
+**Results:** We can observe a shift in sentiments towards some concepts, as well as a shift towards more positive sentiment in the Bibles as a whole.
 
 **Software versions:**
 - Julia 1.7
