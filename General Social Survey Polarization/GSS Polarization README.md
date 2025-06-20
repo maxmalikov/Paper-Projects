@@ -8,6 +8,9 @@ When such a network is constructed, becomes noticable that a) people that share 
 
 To be clear, there are different measures and ideas of what polarization actually means (see https://www.osti.gov/biblio/1106631). In particular, we are interested in Solidarity (as measured by the Global Clustering value), Dispersion (as measured by the Standard Deviation of the Local Clustering values), and Community Fracturing (as measured by the Effective Number of Parties from Laakso and Taagepera, https://doi.org/10.1177/001041407901200101). The visualization of communities is also of interest (see above). All of these different polarization measures are captured in the **gss_polarization.py** file.
 
+**Software files:**
+- gss_polarization.py - the main file that uses the CSV files as inputs and generates network metrics for each dataset.
+
 **Software versions:**
 - Python 3.10
 - NetworkX 2.8
