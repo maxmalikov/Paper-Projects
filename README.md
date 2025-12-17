@@ -10,6 +10,8 @@
 
 4. Rationality Model (NetLogo) - model of how certain cooperative strategies can survive and outcompete more selfish strategies. Notably, the related paper also provides guidance on consistent strategy choice across multiple game-theoretical environments.
 
+5. Schelling's Model of Segregation on a Network (Python) - classic segregation model that has been adapted to accept arbitrary networks as the model environment.
+
 **Statistical Analysis**
 
 1. General Social Survey Polarization (Python) - an analysis of the General Social Survey data over 50 years to determine the presence and evolution of polarization in the political opinions of the population.
